@@ -4,7 +4,7 @@ export function initFbMessenger() {
   var chatbox = document.getElementById("fb-customer-chat");
   chatbox.setAttribute("page_id", "584689638543871");
   chatbox.setAttribute("attribution", "biz_inbox");
-  console.log(chatbox, 'test')
+  console.log(chatbox, "test");
 
   window.fbAsyncInit = function () {
     FB.init({
@@ -19,7 +19,7 @@ export function initFbMessenger() {
     if (d.getElementById(id)) return;
     js = d.createElement(s);
     js.id = id;
-    js.src = "https://connect.facebook.net/fr_FR/sdk/xfbml.customerchat.js";
+    js.src = "https://connect.facebook.net/ro_RO/sdk/xfbml.customerchat.js";
     fjs.parentNode.insertBefore(js, fjs);
   })(document, "script", "facebook-jssdk");
 }
