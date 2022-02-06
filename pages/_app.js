@@ -1,4 +1,4 @@
-// import globals from "../styles/globals.scss";
+import globals from "../styles/globals.scss";
 import Layout from "../components/layout/layout";
 import { FbMessenger } from "../components/facebook/fb-messenger";
 
