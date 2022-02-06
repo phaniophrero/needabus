@@ -1,0 +1,22 @@
+@import "../styles/helpers.scss";
+
+main.home-page {
+  @include page-config;
+}
+
+.hero-image-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: -1;
+
+  height: 44vh;
+  max-height: 643px;
+
+  @media (max-width: 1300px) {
+    height: 35vh;
+  }
+
+  @media (max-width: 1100px) {
+    max-height: 30vh;
+  }
+}

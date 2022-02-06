@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+    <g data-name="Group 32">
+        <g data-name="Group 31">
+            <path data-name="Path 23" d="M246.48 358.4a.72.72 0 1 0 .72.72.72.72 0 0 0-.72-.72z" transform="translate(-228.48 -333.2)" style="fill:#00d53a"/>
+        </g>
+    </g>
+    <g data-name="Group 34">
+        <g data-name="Group 33" transform="translate(16.56 24.48)">
+            <circle data-name="Ellipse 4" cx="1.44" cy="1.44" r="1.44" style="fill:#00d53a"/>
+        </g>
+    </g>
+    <g data-name="Group 36">
+        <g data-name="Group 35">
+            <path data-name="Path 24" d="M18 0a18 18 0 1 0 18 18A18.019 18.019 0 0 0 18 0zm0 34.56A16.56 16.56 0 1 1 34.56 18 16.579 16.579 0 0 1 18 34.56z" style="fill:#00d53a"/>
+        </g>
+    </g>
+    <g data-name="Group 38">
+        <g data-name="Group 37">
+            <path data-name="Path 25" d="M194.319 127.019a5.04 5.04 0 0 0-10 .909.72.72 0 0 0 1.44 0 3.6 3.6 0 1 1 5.335 3.155 4.541 4.541 0 0 0-2.455 4.045v1.44a.719.719 0 1 0 1.437 0V135a3.081 3.081 0 0 1 1.711-2.658 5.064 5.064 0 0 0 2.532-5.323z" transform="translate(-171.361 -114.248)" style="fill:#00d53a"/>
+        </g>
+    </g>
+</svg>

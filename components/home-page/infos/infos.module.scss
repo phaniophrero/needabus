@@ -1,0 +1,68 @@
+@import "../../../styles/helpers.scss";
+
+section.infos {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(320px, 320px));
+  gap: 30px;
+  margin-bottom: 86px;
+
+  .box {
+    @include center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    justify-content: flex-start;
+
+    .image-wrapper {
+      width: 100%;
+      min-height: 40px;
+      max-height: 40px;
+    }
+
+    h1 {
+      font-size: 1rem;
+      font-weight: 600;
+      letter-spacing: 0.8px;
+      color: #505050;
+      width: 100%;
+    }
+
+    p {
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.8px;
+      color: #434343;
+      min-height: 80px;
+      width: 100%;
+    }
+
+    h4 {
+      font-size: 1rem;
+      font-weight: normal;
+      letter-spacing: 0.8px;
+      color: #f0bc2d;
+      cursor: pointer;
+      transition: 0.2s ease all;
+
+      &:hover {
+        color: darken(#f0bc2d, 8%);
+      }
+    }
+  }
+}
+
+@media (max-width: 1450px) {
+  section.infos {
+    grid-template-columns: 240px 240px;
+    justify-content: space-evenly;
+    row-gap: 80px;
+  }
+}
+
+@media (max-width: 600px) {
+  section.infos {
+    grid-template-columns: 240px;
+    justify-content: space-evenly;
+    row-gap: 80px;
+  }
+}
